@@ -583,7 +583,7 @@ async def main():
             data_all=data_all,
             model_name=args.model_name,
             model_tag=model_name + "[1shot]" if args.one_shot else model_name,
-            output_file=os.path.join("results", "resultss.jsonl"),
+            output_file=os.path.join("results", "results.jsonl"),
             result_file=result_file,
             one_shot=args.one_shot,
             compiler=args.compiler,
