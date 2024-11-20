@@ -1,6 +1,6 @@
 # Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement
 
-Code For [Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement](https://arxiv.org/abs/2406.17233).
+Code For [Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement](https://aclanthology.org/2024.findings-emnlp.385).
 
 + [Code in Github](https://github.com/AlongWY/sccdec)
 + [Model in huggingface](https://huggingface.co/ylfeng/sccdec-lora).
