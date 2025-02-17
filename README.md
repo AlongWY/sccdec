@@ -2,9 +2,19 @@
 
 Code For [Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement](https://aclanthology.org/2024.findings-emnlp.385).
 
+## Deploy
+
+```bash
+vllm serve LLM4Binary/llm4decompile-6.7b-v1.5 --port 8000 --tensor-parallel-size 1 --enable-lora --lora-modules model=ylfeng/sccdec-lora
+```
+
+## Resoureces
+
 + [Code in Github](https://github.com/AlongWY/sccdec)
 + [Model in huggingface](https://huggingface.co/ylfeng/sccdec-lora).
 + [Dataset in huggingface](https://huggingface.co/datasets/ylfeng/sccdec-dataset).
+
+## Reference
 
 If you use SCCDEC in your work, please cite it as follows:
 
