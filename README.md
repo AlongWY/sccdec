@@ -6,6 +6,7 @@ Code For [Self-Constructed Context Decompilation with Fined-grained Alignment En
 
 ```bash
 vllm serve LLM4Binary/llm4decompile-6.7b-v1.5 --port 8000 --tensor-parallel-size 1 --enable-lora --lora-modules model=ylfeng/sccdec-lora
+python src/sccdec/eval.py --base_url http://127.0.0.1:8000/v1 --model_name model --one_shot
 ```
 
 ## Resoureces
